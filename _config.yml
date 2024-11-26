@@ -123,3 +123,17 @@ exclude:
   - "*.log"
   - "*.ipynb"
   - "python_notebooks/*"
+
+theme: minima  # Or the theme you are using
+plugins:
+  - jekyll-feed
+
+theme: minima  # Or your chosen theme
+plugins:
+  - jekyll-feed
+
+# URL of your GitHub Pages site
+url: "https://ssdd8.github.io"
+
+# # Leave baseurl empty for personal sites
+# baseurl: ""
