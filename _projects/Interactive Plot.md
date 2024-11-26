@@ -23,8 +23,14 @@ We can use a vegachart HTML tag like so:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/plot2.json" style="width: 100%"></vegachart>
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+The second plot is an interactive scatter plot that visualizes the relationship between the original license numbers and their binned equivalents while highlighting license types. This chart allows users to explore how licenses are distributed across various types and observe clusters or outliers in the data.
 
+Design choices include using color to encode the License Type, allowing users to differentiate among them visually. A dropdown filter was implemented to let users select a specific license type, making it easier to focus on a subset of the data. Additionally, I added a brush selection tool to enable users to highlight regions of interest directly within the plot. The x-axis represents the binned license numbers (to reduce granularity), while the y-axis shows the original license numbers. Tooltips provide additional context by displaying exact license numbers and types when hovering over a point.
+
+Data transformations included cleaning the License Number column by coercing invalid values to NaN, dropping rows with missing data, and converting the column to integers. A binned version of the license number was created for systematic grouping, and a unique list of license types was extracted for the dropdown filter.
+
+Interactivity enhances this visualization by allowing users to dynamically explore the dataset. The dropdown filter narrows the view to specific license types, while the brush selection highlights data points in a chosen region. This makes the scatter plot not only visually appealing but also an effective exploratory tool.
+​
 
 ## Search The Data & Methods
 
