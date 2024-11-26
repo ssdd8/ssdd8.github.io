@@ -25,7 +25,7 @@ We can use a vegachart HTML tag like so:
 
 The first plot visualizes the distribution of the number of licenses held by users. This distribution helps us understand the degree of engagement of users in terms of license acquisition. To create this, I grouped users by their first and last names, calculated the total number of licenses per user, and filtered out users who had only one license to focus on those with significant engagement.
 
-In the design of the visualization, the x-axis represents the number of licenses (binned for clarity), while the y-axis represents the count of users falling into each bin. A bar chart was chosen for its simplicity and ability to communicate frequency distributions effectively. The steel blue color scheme was applied uniformly to highlight the data without introducing distracting visual elements. Data transformation included grouping and filtering steps to clean and simplify the dataset.
+In the design of the visualization, the x-axis represents the number of licenses (binned for clarity), while the y-axis represents the count of users falling into each bin. A bar chart was chosen for its simplicity and ability to communicate frequency distributions effectively. The purple color scheme was applied uniformly to highlight the data without introducing distracting visual elements. Data transformation included grouping and filtering steps to clean and simplify the dataset.
 
 This plot is static because it does not allow user interaction. However, it provides a clear summary of the license count distribution, enabling stakeholders to spot trends or anomalies in user engagement.
 
