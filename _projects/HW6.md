@@ -32,21 +32,21 @@ Below is where we can put some links to both the data and the analysis code as b
 
 ```
 <div class="left">
-{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/935cf44cb30d505171ad31dcb494ceb70c893b33/licenses_fall.csv" text="The Data" %}
+{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/e81209bf6de87a20f179f1d815c9c0cd3410adf3/python_notebooks/licenses_fall.csv" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/935cf44cb30d505171ad31dcb494ceb70c893b33/Hw6.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/87ebc96f1e5a97a1ce27b56140985d9c3b2357c4/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 ```
 
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/935cf44cb30d505171ad31dcb494ceb70c893b33/licenses_fall.csv" text="The Data" %}
+{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/e81209bf6de87a20f179f1d815c9c0cd3410adf3/python_notebooks/licenses_fall.csv" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/935cf44cb30d505171ad31dcb494ceb70c893b33/Hw6.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/87ebc96f1e5a97a1ce27b56140985d9c3b2357c4/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
