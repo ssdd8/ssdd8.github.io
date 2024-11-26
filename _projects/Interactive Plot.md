@@ -1,7 +1,7 @@
 ---
 name: Vega Lite Homework 6  Interactive Plot Project
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/interactiveplot.png
+image: assets/pngs/plot2.png
 description: This is a Homework 6 project that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
