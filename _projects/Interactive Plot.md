@@ -23,14 +23,14 @@ We can use a vegachart HTML tag like so:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/plot2.json" style="width: 100%"></vegachart>
 
-The second plot is an interactive scatter plot that visualizes the relationship between the original license numbers and their binned equivalents while highlighting license types. This chart allows users to explore how licenses are distributed across various types and observe clusters or outliers in the data.
+This visualization presents an interactive box plot that highlights the distribution of license numbers across different license types. The box plot structure makes it easier to identify the variability, median values, and potential outliers for each license type.
 
-Design choices include using color to encode the License Type, allowing users to differentiate among them visually. A dropdown filter was implemented to let users select a specific license type, making it easier to focus on a subset of the data. Additionally, I added a brush selection tool to enable users to highlight regions of interest directly within the plot. The x-axis represents the binned license numbers (to reduce granularity), while the y-axis shows the original license numbers. Tooltips provide additional context by displaying exact license numbers and types when hovering over a point.
+Design Choices
+1.Encoding: The x-axis encodes the categorical variable License Type, displaying each type as a distinct category. The y-axis encodes the numeric variable License Number, showing the range and distribution for each license type. 2.Color Scheme: A conditional color scheme is applied to the box plot. The selected license type is highlighted in its unique color, while unselected types appear in a light gray. This enhances the user’s ability to focus on a specific category while still retaining context for all categories. 3.Tooltips: Tooltips display the specific license type and associated license numbers, offering detailed insight into individual data points.
 
-Data transformations included cleaning the License Number column by coercing invalid values to NaN, dropping rows with missing data, and converting the column to integers. A binned version of the license number was created for systematic grouping, and a unique list of license types was extracted for the dropdown filter.
+Interactivity: A dropdown filter allows the user to dynamically select a license type. The corresponding box plot is highlighted, making it easier to analyze individual distributions. Zoom and pan interactions are enabled to allow users to focus on specific regions of the plot. This is particularly useful for datasets with high variability or a large number of license types.
 
-Interactivity enhances this visualization by allowing users to dynamically explore the dataset. The dropdown filter narrows the view to specific license types, while the brush selection highlights data points in a chosen region. This makes the scatter plot not only visually appealing but also an effective exploratory tool.
-​
+Data Transformations The raw dataset underwent several transformations: Non-numeric values in the License Number column were coerced to NaN and subsequently dropped to ensure clean and accurate plotting. The cleaned license numbers were converted to integers for consistency. A unique list of license types was extracted to populate the dropdown filter. These transformations ensured that the data was properly structured and free of errors, making it suitable for Altair's visualization methods.
 
 ## Search The Data & Methods
 
