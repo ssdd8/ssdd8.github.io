@@ -36,7 +36,7 @@ Below is where we can put some links to both the data and the analysis code as b
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/87ebc96f1e5a97a1ce27b56140985d9c3b2357c4/python_notebooks/Workbook.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/3ed1c323a4e8b2bcddc46fd595ec12bee81fd7fd/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 ```
 
@@ -47,6 +47,6 @@ Below is where we can put some links to both the data and the analysis code as b
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/87ebc96f1e5a97a1ce27b56140985d9c3b2357c4/python_notebooks/Workbook.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/ssdd8/ssdd8.github.io/blob/3ed1c323a4e8b2bcddc46fd595ec12bee81fd7fd/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
